@@ -1,0 +1,47 @@
+target/
+*.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.settings/
+bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+generated/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Mac
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+
+# Project
+*.mv.db
+*.trace.db
+logs/
+
+# Local Docker Volumes
+.data/
+
+credentials.yml
+credentials.yaml
